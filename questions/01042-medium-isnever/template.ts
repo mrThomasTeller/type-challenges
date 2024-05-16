@@ -1,1 +1,1 @@
-type IsNever<T> = any
+type IsNever<T> = [T] extends [never] ? true : false;
